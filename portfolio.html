@@ -2,13 +2,22 @@
 <html lang="en">
 
 <head>
-    
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>My Portfolio</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Bootstrap and jquery-->
+    <link rel="stylesheet" type="text/css" href="assets/style.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
         integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
         crossorigin="anonymous"></script>
@@ -16,6 +25,7 @@
 </head>
 
 <body>
+    <!-- Navigation Bar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <a class="navbar-brand" href="#">Evan Reid</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
@@ -23,7 +33,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
+            <ul class="navbar-nav ml-auto">
                 <li class="nav-item active">
                     <a class="nav-link" href="index.html">My Bio <span class="sr-only">(current)</span></a>
                 </li>
@@ -36,6 +46,74 @@
             </ul>
         </div>
     </nav>
+
+    <!-- My Portfolio section with rows and columns-->
+    <section>
+        <h1>My Portfolio</h1>
+        <div class="container">
+            <div class="row">
+                <!-- The use of two column sizes to allow for resizing with different screen images-->
+                <div class="col-lg-6 col-md-12">
+                    <div class="card1" style="width: 14rem;">
+                        <img src="assets/1596583225217.jpg" class="card-img-top" alt="My Face">
+                        <div class="card-body">
+                            <p class="card-text">Info about my childhood</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- The use of two column sizes to allow for resizing with different screen images-->
+                <div class="col-lg-6 col-md-12">
+                    <div class="card2" style="width: 14rem;">
+                        <img src="assets/1596583225217.jpg" class="card-img-top" alt="My Face">
+                        <div class="card-body">
+                            <p class="card-text">Info about my school stuff</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- The use of two column sizes to allow for resizing with different screen images-->
+                <div class="col-lg-6 col-md-12">
+                    <div class="card3" style="width: 14rem;">
+                        <img src="assets/1596583225217.jpg" class="card-img-top" alt="My Face">
+                        <div class="card-body">
+                            <p class="card-text">Info about activities involved with</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- The use of two column sizes to allow for resizing with different screen images-->
+                <div class="col-lg-6 col-md-12">
+                    <div class="card4" style="width: 14rem;">
+                        <img src="assets/1596583225217.jpg" class="card-img-top" alt="My Face">
+                        <div class="card-body">
+                            <p class="card-text">Info about my career</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <!-- The use of two column sizes to allow for resizing with different screen images-->
+                <div class="col-lg-6 col-md-12">
+                    <div class="card5" style="width: 14rem;">
+                        <img src="assets/1596583225217.jpg" class="card-img-top" alt="My Face">
+                        <div class="card-body">
+                            <p class="card-text">Info about my favorite soccer team</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- The use of two column sizes to allow for resizing with different screen images-->
+                <div class="col-lg-6 col-md-12">
+                    <div class="card6" style="width: 14rem;"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <h2>&#169;2020 Evan Reid</h>
+    </footer>
+
 </body>
+
 
 </html>

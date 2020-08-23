@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+  }
+
+.navbar-brand {
+    background-color: gray;
+}
+
+main {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    }
+
+main h1 {
+    margin: 30px;
+}
+
+main img {
+    float: left;  
+    margin-right: 30px;
+    margin-bottom: 30px;
+    width: 200px;
+  }
+
+section h1 {
+    margin-top: 30px;
+    margin-left: 60px;
+}
+
+.card-img-top {
+    margin-top: 30px;
+}
+
+.container h1 {
+    margin: 30px;
+    margin-left: 60px;
+}
+  
+footer {
+      text-align: center;
+      background-color: gray;
+  }
+
+footer h2 {
+    font-size: 15px;
+}
