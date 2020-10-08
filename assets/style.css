@@ -4,7 +4,11 @@
 
 .navbar-brand {
     background-color: gray;
+    padding: 20pt;
+    border-radius: 8px;
 }
+
+
 
 main {
     margin-top: 40px;
@@ -27,6 +31,18 @@ section h1 {
     margin-left: 60px;
 }
 
+.contactinfo {
+    margin-left: 5%;
+}
+
+.container {
+    background-color: rgb(192, 197, 201);
+    margin-bottom: 3%;
+    border-radius: 12px;
+}
+.portfolio-card {
+    text-decoration: underline
+}
 .card-img-top {
     margin-top: 30px;
 }
@@ -38,7 +54,11 @@ section h1 {
   
 footer {
       text-align: center;
+      color: lightgray;
       background-color: gray;
+      margin-left: 30px;
+      margin-right: 30px;
+      border-radius: 4px;
   }
 
 footer h2 {
